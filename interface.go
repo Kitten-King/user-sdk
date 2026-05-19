@@ -1,6 +1,8 @@
-package sdk
+package user_sdk
 
-import "context"
+import (
+	"context"
+)
 
 type Client interface {
 	GetByID(ctx context.Context, id int) (*UserWithCity, error)

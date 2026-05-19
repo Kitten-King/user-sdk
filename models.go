@@ -1,4 +1,4 @@
-package sdk
+package user_sdk
 
 type User struct {
 	UserID int    `json:"userId" db:"user_id"`

@@ -1,4 +1,4 @@
-package sdk
+package user_sdk
 
 import (
 	"bytes"
